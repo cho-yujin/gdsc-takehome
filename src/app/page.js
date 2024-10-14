@@ -1,4 +1,7 @@
 import Image from "next/image";
+// import Navbar from "../src/components/navbar.js";
+// import Body from "../src/components/body.js";
+// import Footer from "../src/components/footer.js";
 
 export default function Home() {
   return (
@@ -20,7 +23,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Save and see your glumb sauce instantly.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
