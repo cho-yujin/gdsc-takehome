@@ -10,7 +10,7 @@ export default function Body() {
                     <h1 className="mb-5">Product Cohort</h1>
                     <p1>This cohort focuses on collaborating with real-world startups to deliver a fully-functional product, simulating the experience of working in a professional environment.  </p1>
                     <div className="flex mt-14">
-                        <button className="mr-10">Join our cohort</button>
+                        <button className="mr-8">Join our cohort</button>
                         <button className="bg-white text-gdsc-blue border-gdsc-blue hover:text-white hover:bg-gdsc-blue">Contact us</button>
                     </div>
                 </div>
@@ -35,16 +35,36 @@ export default function Body() {
             </div>
 
             <div className="flex my-36 gap-14">
-                <div className="flex flex-col w-[46%] min-w-[46%] justify-center gap-4">
-                    <img className="object-contain" src={"assets/photo3.png"} alt="Illustration of circles and a diverse set of people"/>
-                    <img className="object-contain" src={"assets/photo4.png"} alt="Illustration of circles and a diverse set of people"/>
+                <div className="flex flex-col w-[46%] min-w-[46%] justify-center gap-6">
+                    <img className="object-contain" src={"assets/photo3.png"} alt="Two GDSC members doing the GDSC hand sign"/>
+                    <img className="object-contain" src={"assets/photo4.png"} alt="GDSC womens' panel"/>
                 </div>
-                <div>
-                    <h2>Benefits of the Product Cohort</h2>
-                        <div>
-                            <h4>Hands-On Experience</h4>
-                            <p1>This cohort gives you the chance to work in a real-world scenario with real deadlines, clients, and deliverables. By the end of the project, you’ll have a fully developed website to showcase in your portfolio.</p1>
-                        </div>
+                <div className="flex flex-col justify-center">
+                    <h2 className="mb-6">Benefits of the Product Cohort</h2>
+                    
+                    <div className="flex gap-4 items-center mb-2">
+                        <img className="object-contain" src={"assets/yellow-icon.svg"} alt="Yellow GDSC icon"/>
+                        <h3>Hands-On Experience</h3>
+                    </div>
+                    <p1>This cohort gives you the chance to work in a real-world scenario with real deadlines, clients, and deliverables. By the end of the project, you’ll have a fully developed website to showcase in your portfolio.</p1>
+
+                    <div className="flex gap-4 items-center mt-6 mb-2">
+                        <img className="object-contain" src={"assets/blue-icon.svg"} alt="Blue mentorship icon"/>
+                        <h3>Mentorship That Matters</h3>
+                    </div>
+                    <p1>With guidance from experienced product managers who know the ins and outs of launching professional websites, you’ll navigate through the complexities of client communication and team dynamics.</p1>
+
+
+                    <div className="flex gap-4 items-center mt-6 mb-2">
+                        <img className="object-contain" src={"assets/green-icon.svg"} alt="Green networking icon"/>
+                        <h3>A Professional Network</h3>
+                    </div>
+                    <p1>Working with a startup means you’re not just gaining experience—you’re building relationships. The connections you make in our cohort could open doors to internships or even startup ventures of your own.</p1>
+
+                    <div className="flex mt-9">
+                        <button className="mr-8">Join our cohort</button>
+                        <button className="bg-white text-gdsc-blue border-gdsc-blue hover:text-white hover:bg-gdsc-blue">Contact us</button>
+                    </div>
                 </div>
             </div>
         </div>
