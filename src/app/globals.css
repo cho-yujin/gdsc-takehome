@@ -9,31 +9,46 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #000000;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 h1 {
+  font-weight: 800;
   font-size: 68px;
+  margin: 0;
+  line-height: 84px;
 }
 
 h2 {
-  font-size: 40px;
+  font-weight: 700;
+  font-size: 38px;
 }
 
 h3 {
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #184065;
 }
+
+h4 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #184065;
+}
+
 p1 {
+  color: #555555;
+  font-weight: 500;
   font-size: 20px;
 }
 
@@ -43,6 +58,33 @@ p2 {
 
 p3 {
   font-size: 14px;
+}
+
+button {
+  background-color: #3182ce;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  border: 2px solid transparent;
+  display: block;
+}
+
+button:hover {
+  background-color: white;
+  color: #3182ce;
+  border: 2px solid #3182ce;
+  text-align: center;
+  transition-duration: 0.2s
+}
+
+button:active{
+  transform: scale(0.95);
 }
 
 @layer utilities {
