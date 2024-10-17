@@ -5,7 +5,7 @@ import Footer from "./components/footer.js";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-items-center min-h-screen overflow-y-scroll">
-      <div className="w-[80%]">
+      <div className="w-[85%] lg:w-[80%]">
         <Navbar></Navbar>
         <Body></Body>
       </div>

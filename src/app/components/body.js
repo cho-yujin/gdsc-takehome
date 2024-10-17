@@ -6,12 +6,16 @@ export default function Body() {
             <div className="grid grid-cols-2 gap-10">
                 <div className="flex flex-col justify-center max-w-[95%]">
                     <h4 className="mb-1">Build Real-World Products with the</h4>
-                    <h1>UC Davis</h1>
+                    <h1 className="">UC Davis</h1>
                     <h1 className="mb-5">Product Cohort</h1>
                     <p1>This cohort focuses on collaborating with real-world startups to deliver a fully-functional product, simulating the experience of working in a professional environment.  </p1>
                     <div className="flex mt-14">
-                        <button className="mr-8">Join our cohort</button>
-                        <button className="bg-white text-gdsc-blue border-gdsc-blue hover:text-white hover:bg-gdsc-blue">Contact us</button>
+                        <a href="https://gdscucdavis.com/Apply">
+                            <button className="mr-8">Join our cohort</button>
+                        </a>
+                        <a href="https://gdscucdavis.com/Contact">
+                            <button className="bg-white text-gdsc-blue border-gdsc-blue hover:text-white hover:bg-gdsc-blue">Contact us</button>
+                        </a>
                     </div>
                 </div>
                 <div className="items-center justify-items-center">
@@ -25,9 +29,9 @@ export default function Body() {
                     <h4 className="mb-5">Because we turn your skills into tangible results!</h4>
                     <p1 className="mb-7">Do you want to take your development/design skills to the next level? Are you ready to collaborate with a startup and create a product that makes an impact? The UC Davis Google Developer Student Club’s Product Cohort is the opportunity you've been waiting for.</p1>
                     <p1 className="mb-8">In this hands-on cohort, you won’t just learn—you’ll do. You will join a small, dynamic team tasked with building a functional website for an innovative startup. Together, you’ll experience the thrill and challenges of working in  a fast-paced, real-world environment.</p1>
-                    <div>
+                    <a href="https://gdscucdavis.com/Projects">
                         <button className="bg-white text-gdsc-blue border-gdsc-blue hover:text-white hover:bg-gdsc-blue">View our projects</button>
-                    </div>
+                    </a>
                 </div>
                 <div className="flex w-[47%] justify-center">
                     <img className="object-contain" src={"assets/photo2.png"} alt="Illustration of circles and a diverse set of people"/>
@@ -62,8 +66,12 @@ export default function Body() {
                     <p1>Working with a startup means you’re not just gaining experience—you’re building relationships. The connections you make in our cohort could open doors to internships or even startup ventures of your own.</p1>
 
                     <div className="flex mt-9">
-                        <button className="mr-8">Join our cohort</button>
-                        <button className="bg-white text-gdsc-blue border-gdsc-blue hover:text-white hover:bg-gdsc-blue">Contact us</button>
+                    <a href="https://gdscucdavis.com/Apply">
+                            <button className="mr-8">Join our cohort</button>
+                        </a>
+                        <a href="https://gdscucdavis.com/Contact">
+                            <button className="bg-white text-gdsc-blue border-gdsc-blue hover:text-white hover:bg-gdsc-blue">Contact us</button>
+                        </a>
                     </div>
                 </div>
             </div>
