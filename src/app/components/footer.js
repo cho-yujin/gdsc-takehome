@@ -1,13 +1,13 @@
 export default function Footer() {
     return (
-        <div className="grid grid-cols-3 gap-15 bg-footer-white h-56 w-full">
-            <div className="flex flex-col items-center justify-center ml-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-15 bg-footer-white py-8 md:h-56 w-full">
+            <div className="flex flex-col items-center justify-center md:ml-10 mb-6 md:mb-0">
                 <img className="h-[40px] mb-3" src={"assets/gdsc-logo.svg"} alt="GDSC logo"/>
                 <p2 className="font-bold mb-2">Google Developer Student Clubs</p2>
                 <p2>University of California, Davis</p2>
             </div>
 
-            <div className="flex items-center justify-evenly">
+            <div className="flex items-center justify-evenly mb-6 md:mb-0">
                 <div className="flex flex-col items-center justify-center">
                     <p1 className="font-bold mb-3">Links</p1>
                     <a href="https://gdscucdavis.com/About">
@@ -33,7 +33,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="flex items-center justify-center gap-5 mr-10">
+            <div className="flex items-center justify-center gap-5 md:mr-10">
                 <a href="https://www.instagram.com/gdsc_ucdavis/" target="_blank">
                     <button className="bg-transparent hover:bg-transparent p-0 hover:border-transparent">
                         <img className="h-8" src={"assets/instagram.svg"} alt="Instagram logo"/>

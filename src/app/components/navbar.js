@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <div className="flex justify-between lg:py-8 lg:pb-16">
+        <div className="flex justify-between py-8 pb-12 pb-16">
                 <div className="items-center justify-items-center">
                     <img src={"assets/gdsc-logo.svg"} alt="GDSC logo"/>
                 </div>
